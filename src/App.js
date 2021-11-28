@@ -1,10 +1,11 @@
-import "./App.css";
+import "./App.scss";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <div>
-      <p>My react setup</p>
-    </div>
+    <Fragment>
+      <div className="m-5">app11</div>
+    </Fragment>
   );
 }
 
